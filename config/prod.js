@@ -1,5 +1,6 @@
 module.exports = {
   NODE_ENV: 'production',
   API: '/api', // 接口
-  publicPath: '/react-board' // 输出路径
+  publicPath: '/', // 输出路径
+  PUBLIC_URL: '/'
 }

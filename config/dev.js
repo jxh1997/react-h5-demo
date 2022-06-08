@@ -1,4 +1,5 @@
 module.exports = {
   NODE_ENV: 'development',
-  API: '/api'
+  API: '/api',
+  PUBLIC_URL: '/'
 }
