@@ -16,6 +16,7 @@
   "dependencies": {
     "antd-mobile": "^2.3.3",
     "axios": "^0.19.2",
+    "eject": "^0.0.4",
     "qs": "^6.9.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

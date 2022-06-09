@@ -8,13 +8,21 @@
 html, body, #root {
   width: 100%;
   height: 100%;
+  background-color: #1B1B20;
 }
 
-.main {
-  padding-bottom: 10vh;
-  overflow: hidden;
-  font-size: 16px;
+.app-main {
+  display: flex;
+  flex-direction: column;
+  flex-flow: nowrap;
+  width: 100%;
+  // height: 100%;
+  padding: 46px 0 62px 0;
+  .app-content {
+    height: calc(100% - 110px);
+  }
 }
+
 
 .base-font {
   font-size: 16PX;

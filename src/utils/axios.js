@@ -3,7 +3,7 @@ import qs from "qs";
 import auth from "./auth";
 
 const service = axios.create({
-  baseURL: process.env.API, // api base_url
+  baseURL: process.env.API || {}, // api base_url
   timeout: 10000 // 请求超时时间
 });
 

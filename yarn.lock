@@ -1334,6 +1334,11 @@ add-dom-event-listener@^1.1.0:
   dependencies:
     object-assign "4.x"
 
+adhere@1.x:
+  version "1.2.3"
+  resolved "https://registry.npmmirror.com/adhere/-/adhere-1.2.3.tgz#3719ac497758735c817381a756720be7ba0360a2"
+  integrity sha512-1ItBtLjSW2yNZ6gSaHeir5X3Om77u9H2iQuGoPMMHZMGpzTARRFMqPqr5Lz4LVMFWOBZO6U4P9GG7A8+j7n1pw==
+
 ajv-errors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/ajv-errors/-/ajv-errors-1.0.1.tgz#f35986aceb91afadec4102fbd85014950cefa64d"
@@ -2008,6 +2013,11 @@ cache-base@^1.0.1:
     to-object-path "^0.3.0"
     union-value "^1.0.0"
     unset-value "^1.0.0"
+
+cadence@1.x:
+  version "1.0.12"
+  resolved "https://registry.npmmirror.com/cadence/-/cadence-1.0.12.tgz#6e3bf71404c9f654f8ca31b1474f6fdfab63477a"
+  integrity sha512-9YJbhySTUaMBKz3IVcXbpw70K7swnBlD/LFY59zfwZ5U5sHXvZQUCCHSPdENdCKQ4XmN+GpFJrGF/yBZ73jMMw==
 
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
@@ -2810,6 +2820,15 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmmirror.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
+
+eject@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmmirror.com/eject/-/eject-0.0.4.tgz#bad7c33522e63fe963ccb713d0cb0ee7a975d8fb"
+  integrity sha512-9tG0AOcZFxjQeZMCrUufZ2+118vMoy4SXN8O3M/di2yotk5ILERUoGKb5D1sR4EI3OjiAzAl0RTZ1OjiFAJ0XQ==
+  dependencies:
+    adhere "1.x"
+    cadence "1.x"
+    interrupt "1.x"
 
 electron-to-chromium@^1.4.118:
   version "1.4.146"
@@ -4082,6 +4101,13 @@ interpret@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/interpret/-/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
   integrity sha512-agE4QfB2Lkp9uICn7BAqoscw4SZP9kTE2hxiFI3jBPmXJfdqiahTbUuKGsMoN2GtqL9AxhYioAcVvgsb1HvRbA==
+
+interrupt@1.x:
+  version "1.2.0"
+  resolved "https://registry.npmmirror.com/interrupt/-/interrupt-1.2.0.tgz#8f8e0d0cfba190e74682e82d8f0439205a670209"
+  integrity sha512-tLNebsqj9FHpUONB39XnYLtf6s62WPN2bV4j4EoqWsjsEHCIy8s9/wsogcWJg7T2Us11BjBKXvrRNRIRf+Kq2A==
+  dependencies:
+    supersede "1.x"
 
 ip-regex@^2.1.0:
   version "2.1.0"
@@ -6957,6 +6983,11 @@ style-loader@^1.2.1:
   dependencies:
     loader-utils "^2.0.0"
     schema-utils "^2.7.0"
+
+supersede@1.x:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/supersede/-/supersede-1.0.6.tgz#27ce9eaaf0b81e9ea31d7471c7aa4cb153f50065"
+  integrity sha512-68MKSJ+nGtjpQS7ckOvFiCydPY+2sz6iXmC3+/BkCqnaA/UtGOkcY2H5WOKZF9Xo5GUU+LK9ZfSzXVOre9H0rQ==
 
 supports-color@^2.0.0:
   version "2.0.0"
